@@ -6,22 +6,35 @@
     <title>K. SWISS</title>
 <link rel="stylesheet" href="style.css">
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
     
 <header>
 
-<img src="images/logo.png" width="140" height="30"  id="logo" alt="">
 
 <nav>
-    <ul class="menu">
-        <li><a href="">à propos  </a></li>
-        <li><a href="">pourquoi acheter ? </a></li>
-        <li><a href="">notre avenir en vidéo </a></li>
-        <li><a href="">notre aventure en video </a> </li>
-        <li><a href="">caractéristique </a> </li>
-        <li><a href="">achetez </a></li>
+
+<div class="container" id="ctn">
+
+<img src="images/logo.png" width="140" height="30" alt="" class="col-ms-1" id="logo">
+
+<class="row" class="text-white">
+
+    <ul class="nav navbar"  >
+        <li class="navbar-active"><a class="nav-link" href="#">à propos  </a></li>
+        <li class="nav-item" class="text-dark" ><a class="nav-link" href="">pourquoi acheter ? </a></li>
+        <li class="nav-item"><a class="nav-link" href="">notre avenir en vidéo </a></li>
+        <li class="nav-item"><a class="nav-link" href="">notre aventure en video </a> </li>
+        <li class="nav-item"><a class="nav-link" href="">caractéristique </a> </li>
+        <li class="nav-item"><a class="nav-link" href="">achetez </a></li>
     </ul>
+
+
+</div>
+
+</div>
 
 </nav>
 
@@ -30,13 +43,20 @@
 
 <main>
     
-<img src="images/logo2.png" alt="logo" class="center">
+
+<div id="logoCenter">
+    
+</div>
 
 
 <div class="imgs"></div>
 
 
-<img src="images/img1.png" alt="" width="1316" height="420">
+<div id="cloudImage">
+
+
+
+</div>
 
 <br>
 
@@ -44,36 +64,47 @@
 
     <p id="description">
         
-        <span id="descriptionBig" > <strong>Le nuage</strong>- la philosophie haut de gamme de ce que vous croyez- and the dirt- the low down subject 
-     - et la terre - l'expertise en la matière qui vous permet de l'exécuter.
-     Oubliez tout le reste.</span>
-
-     <br>
-
+        <span id="descriptionBig" > <strong>The cloud</strong>- the high-end philosophy of 
+        what you believe- and the dirt- the low down subject 
+        matter expertise that allows you to execute against it.
+         Forget about everything else</span>
 <span id="descriptionSmall">
-    La chaussure est basée sur la légendaire K-Swiss Classic 88,
-    une icône intemporelle dans le monde des sneakers.  Pour la première fois en 50 ans d'histoire,
-    la K-Swiss Classic 88 est 
-    présentée avec une tige en tricot pour le confort et la respirabilité, 
-    tout en conservant le design patrimonial de l'embout en trois parties,
-    des anneaux en D et de la semelle en caoutchouc. </span>
+  The shoe is based upon the legendary K-Swiss Classic
+     88, a timeless icon in the sneaker game. For the first
+      time in its 50 year history, the K-Swiss Classic 88 is
+       presented in a knitted upper for comfort and breathability
+       , while retaining the heritage design DNA of the three-piece
+        toe, D-rings and rubber outsole </span>
     
     </p>
 
 
-  
+        
 
 <br>
 
+<iframe width="880" height="495" src="https://www.youtube.com/embed/SNSFeuF46zI" title="Defining Clouds  Dirt   KSWISS EDITION" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="text-align:  center;" ></iframe>
+
 <br>
 
+
+
+
+
+</div>
+
+<div id="bigImage"></div>
 
 <h2>NOTRE AVENTURE EN VIDEO</h2>
 
 
+<iframe width="420" height="316" src="https://www.youtube.com/embed/ePZ7eD2fnPI" title="Inside K-Swiss Vlog Ep. 03 | Clouds &amp; Dirt Sneaker Launch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="420" height="316" src="https://www.youtube.com/embed/TysRC5eaGNA" title="Clouds And Dirt Unboxing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="420" height="316" src="https://www.youtube.com/embed/ePZ7eD2fnPI" title="Inside K-Swiss Vlog Ep. 03 | Clouds &amp; Dirt Sneaker Launch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 
-<img src="images/img2.png" width="1200" height="629"  alt="">
 
 
 <br>
@@ -87,7 +118,9 @@
 
 <br>
 
-<img src="images/img3.png" alt="" width="1536" height="420">
+<div id="dirt">
+
+</div>
 
 <br><br><br>
 
@@ -108,7 +141,7 @@ Quantités limitées encore disponible pour les hommes & enfants
 
 <br>
 
-<img src="images/img4.png" alt="" width="1316" height="450">
+<div id="img4"></div>
 
 </main>
 
@@ -123,6 +156,10 @@ Quantités limitées encore disponible pour les hommes & enfants
 </div>
 
 </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

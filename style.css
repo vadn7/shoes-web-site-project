@@ -1,3 +1,72 @@
+/*
+#logo { background-image: url("images/logo2.png");
+      width: 50px; 
+      height: 50px;
+
+}*/
+
+#logoCenter { background-image: url("images/logo2.png");
+     width: 300px; 
+     height: 150px;
+     background-size: cover;
+     margin:50px auto 20px auto;
+
+}
+
+#cloudImage { background-image: url("images/img1.png");
+     width: 1316; 
+     min-height: 420px;
+     background-size: cover;
+     display: flex;
+     background-attachment: fixed;
+
+}
+/*
+<div class="ytp-cued-thumbnail-overlay-image" style="background-image: url(&quot;https://i.ytimg.com/vi_webp/SNSFeuF46zI/maxresdefault.webp&quot;);"></div>
+*/
+#yt1 { background-image: url("&quot;https://i.ytimg.com/vi_webp/SNSFeuF46zI/maxresdefault.webp&quot;");
+     width: 880px; 
+     height: 495px;
+     background-size: cover; }
+
+#bigImage { 
+
+background-image: url("images/img2.png");
+background-size: cover;
+width: 1536px;
+height: 450px;
+display: flex;
+background-attachment: fixed;
+}
+
+
+#dirt{   background-image: url("images/img3.png");  
+     min-height:420px;
+     background-size: cover;
+     
+     background-attachment: fixed;
+     
+     }
+
+#img4{   background-image: url("images/img4.png");  
+min-height:450px;
+background-size: cover;
+
+background-attachment: fixed;
+
+}
+
+
+.white { color: white; }
+
+#ctn { display: flex; 
+
+
+
+}
+
+.navbar { color: white;}
+
 nav ul { list-style: none;  }
 
 nav a { text-decoration:  none; }
@@ -16,6 +85,8 @@ nav a { color: white; text-transform: uppercase; }
 }
 
 #logo { margin-top: 20px; margin-bottom: -25px; }
+
+.navbar{ color: white; }
 
 .imgs{ background-image: url(/images/img1.png);  }
 
@@ -44,3 +115,44 @@ hr { color: white; width: 1100px; }
 
 #logo2 { display: flex; margin: 0px 0px 0px 190px ; padding-top: 50px ; }
 
+
+@media all and (max-width: 767px) {
+     
+p {overflow: auto;width: 250px;
+     height: 110px; }    
+
+#description, #descriptionBig, #descriptionSmall{ text-align: center; max-width: 50%; 
+
+     padding: 16px;
+     overflow: auto;
+     display: block;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     unicode-bidi: isolate;
+
+} 
+.menu { width: 100%; }
+
+img { width: 100%; }
+
+iframe {width: 100%; }
+
+.menu{ margin: auto; padding: 50px 0px 30px 0px ; 
+     font-weight: bold; font-size: 14px; letter-spacing: 1px;
+     text-rendering: optimizeLegibility;
+ }
+
+body{ width: 100%; }
+
+}
+
+
+
+
+     @media all and (min-width: 768px) {
+     
+     
+     
+     }
